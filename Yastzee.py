@@ -39,9 +39,10 @@ def simulacion_yahtzee(num_simulaciones = 1000000):
 
         if _ < 1:
             print("Lanzando Dados")
+            
         # IMPRIMIR UNICAMNETE LAS PRIMERAS 10 SIMULACIONES DE LANZAMINETO DE DADOS
-        """ if _ < 10:
-            print("Valores obtenidos de dados para el yathzee: ", dados) """
+        if _ < 10:
+            print("Valores obtenidos de dados para el yathzee: ", dados)
 
         if es_yahtzee(dados):
             yahtzees += 1
@@ -66,8 +67,8 @@ def simulacion_fullHouse(can_simulaciones = 1000000 ):
         if _ < 1:
             print("Lanzando Dados")
         # IMPRIMIR UNICAMNETE LAS PRIMERAS 10 SIMULACIONES DE LANZAMINETO DE DADOS
-        #if _ < 10:
-            #print("Valores obtenidos de dados para el full house: ", dados)
+        if _ < 10:
+            print("Valores obtenidos de dados para el full house: ", dados)
 
         #SI FULL HOUSE EXISTE, SUMAR 1
         if es_fullHouse(dados):
