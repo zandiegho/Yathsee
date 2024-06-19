@@ -1,8 +1,8 @@
 # Trabajo Simulacion 
 # Docente Diego Leon Zapata Ruiz
 
-# Jose Mauricoo Camacho
-# Juan diego Rico Urrego
+# Jose Mauricio Camacho
+# Juan Diego Rico Urrego
 
 
 # Ingenieria de Software y Datos
