@@ -39,7 +39,7 @@ def simulacion_yahtzee(num_simulaciones = 1000000):
 
         if _ < 1:
             print("Lanzando Dados")
-            
+
         # IMPRIMIR UNICAMNETE LAS PRIMERAS 10 SIMULACIONES DE LANZAMINETO DE DADOS
         if _ < 10:
             print("Valores obtenidos de dados para el yathzee: ", dados)
@@ -86,22 +86,22 @@ def simulacion_fullHouse(can_simulaciones = 1000000 ):
 # Ejecutar la simulación
 
 # Simualción Jugador 1
-print("Turno Jugador Jugador 1")
+print("Turno  Jugador 1")
 probabilidad_yahtzeeJ1 = simulacion_yahtzee()
 print(f"\nLa probabilidad estimada de obtener un Yahtzee J1 es: {probabilidad_yahtzeeJ1:.6f}\n")
 
 # Simualción Jugador 1
-print("Turno Jugador Jugador 2")
+print("Turno  Jugador 2")
 probabilidad_yahtzeeJ2 = simulacion_yahtzee()
 print(f"\nLa probabilidad estimada de obtener un Yahtzee J2 es de: {probabilidad_yahtzeeJ2:.6f}\n")
 
 # Ejecutar la simulación Jugador 1
-print("Turno Jugador Jugador 1")
+print("Turno  Jugador 1")
 probabilidad_FullHouseJ1 = simulacion_fullHouse()
 print(f"\nLa probabilidad estimada de obtener un Full house J1 es de: {probabilidad_FullHouseJ1:.6f}\n")
 
 # Ejecutar la simulación Jugador 2 
-print("Turno Jugador Jugador 2")
+print("Turno  Jugador 2")
 probabilidad_FullHouseJ1 = simulacion_fullHouse()
 print(f"\nLa probabilidad estimada de obtener un Full house J2 es de: {probabilidad_FullHouseJ1:.6f}\n")
 
